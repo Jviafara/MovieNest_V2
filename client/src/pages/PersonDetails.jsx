@@ -27,7 +27,7 @@ const PersonDetails = () => {
 
     return (
         <div>
-            <div className="max-w-[1366px] mx-auto p-12 my-10">
+            <div className="max-w-[1366px] mx-auto min-h-screen p-12 my-10">
                 {person && (
                     <div>
                         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-8 mb-10">

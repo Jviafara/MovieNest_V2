@@ -63,7 +63,7 @@ const MediaList = () => {
     const onLoadMore = () => setCurrPage(currPage + 1);
 
     return (
-        <div className="w-full h-full flex flex-col gap-8 last:mb-16">
+        <div className="w-full h-full min-h-screen flex flex-col gap-8 last:mb-16">
             <HeroSlide
                 mediaType={mediaType}
                 mediaCategory={tmdbConfigs.mediaCategory.popular}

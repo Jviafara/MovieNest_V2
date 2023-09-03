@@ -1,7 +1,7 @@
 import axios from 'axios';
 import queryString from 'query-string';
 
-const baseURL = 'http://localhost:8080/api/v1/';
+const baseURL = 'https://movienest-rti2.onrender.com/api/v1/';
 
 const privateClient = axios.create({
     baseURL,

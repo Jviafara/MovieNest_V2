@@ -56,7 +56,7 @@ const PasswordUpdate = () => {
     };
 
     return (
-        <div className="w-full min-h-screen max-w-[1366px] mx-auto p-12 my-10">
+        <div className="w-full min-h-screen max-w-[1366px] mx-auto  p-12 my-10">
             <UpdateForm />
         </div>
     );

@@ -6,7 +6,7 @@ import MediaSlide from '../components/common/MediaSlide';
 
 const Home = () => {
     return (
-        <div className="w-full h-full">
+        <div className="w-full h-full min-h-screen">
             <HeroSlide
                 mediaType={tmdbConfigs.mediaType.movie}
                 mediaCategory={tmdbConfigs.mediaCategory.popular}

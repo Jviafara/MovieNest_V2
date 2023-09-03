@@ -105,7 +105,7 @@ const MediaDetails = () => {
     };
 
     return media ? (
-        <div className="w-full h-full last:mb-16">
+        <div className="w-full h-full min-h-screen last:mb-16">
             <ImageHeader
                 imgPath={tmdbConfigs.backdropPath(
                     media.backdrop_path || media.poster_path
