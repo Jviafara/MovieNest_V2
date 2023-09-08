@@ -8,11 +8,7 @@ import router from './src/routes/router.js';
 
 const app = express();
 
-app.use(
-    cors({
-        origin: 'https://movienestapp.netlify.app',
-    })
-);
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
