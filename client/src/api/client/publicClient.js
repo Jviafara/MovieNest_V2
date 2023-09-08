@@ -1,7 +1,8 @@
 import axios from 'axios';
 import queryString from 'query-string';
 
-const baseURL = 'https://movienest-rti2.onrender.com/api/v1/';
+// const baseURL = 'https://movienest-rti2.onrender.com/api/v1/'; //RENDER
+const baseURL = 'https://movienestv2-production.up.railway.app/api/v1/'; //RAILWAY
 
 const publicClient = axios.create({
     baseURL,
