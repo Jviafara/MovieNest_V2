@@ -10,7 +10,6 @@ const app = express();
 
 app.use(
     cors({
-        credentials: true,
         origin: 'https://movienestapp.netlify.app',
     })
 );
