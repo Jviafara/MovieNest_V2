@@ -49,29 +49,29 @@ const AuthModal = () => {
     return (
         <Transition show={authModalOpen} as={Fragment}>
             <Dialog
-                as="div"
-                className="fixed top-0 left-0 w-full h-full z-10"
+                as='div'
+                className='fixed top-0 left-0 w-full h-full z-10'
                 onClose={handleClose}>
                 <Transition.Child
                     as={Fragment}
-                    enter="ease-in-out duration-500"
-                    enterFrom="opacity-0"
-                    enterTo="opacity-100"
-                    leave="ease-in-out duration-500"
-                    leaveFrom="opacity-100"
-                    leaveTo="opacity-0">
+                    enter='ease-in-out duration-500'
+                    enterFrom='opacity-0'
+                    enterTo='opacity-100'
+                    leave='ease-in-out duration-500'
+                    leaveFrom='opacity-100'
+                    leaveTo='opacity-0'>
                     <div
-                        className="w-full h-full
-                        backdrop-blur-sm transition-opacity"
+                        className='w-full h-full
+                        backdrop-blur-sm transition-opacity'
                     />
                 </Transition.Child>
                 {authModalOpen && (
                     <div
                         data-theme={themeMode}
                         ref={authModalRef}
-                        className="w-[90%] md:max-w-[600px]  rounded-xl fixed transform top-[20%] left-[5%] -translate-y-[20%]  lg:top-[50%] md:left-[50%]  md:-translate-x-[50%] lg:-translate-y-[50%] backdrop-blur-lg text-black ">
-                        <div className="bg-gray-300 bg-opacity-70 rounded-xl p-4 lg:p-8">
-                            <div className="mb-4 flex justify-center">
+                        className='w-[90%] md:max-w-[600px]  rounded-xl fixed transform top-[20%] left-[5%] -translate-y-[20%]  lg:top-[50%] md:left-[50%]  md:-translate-x-[50%] lg:-translate-y-[50%] backdrop-blur-lg text-black '>
+                        <div className='bg-gray-300 bg-opacity-70 rounded-xl p-4 lg:p-8'>
+                            <div className='mb-4 flex justify-center'>
                                 <Logo />
                             </div>
                             {action === actionState.signin && (
